@@ -21,7 +21,7 @@
 
 #include "Test.h"
 
-#include "../base/OSHelper.h"
+#include "OSHelper.h"
 
 using namespace std;
 
