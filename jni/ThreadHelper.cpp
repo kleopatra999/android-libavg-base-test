@@ -29,12 +29,22 @@
 #endif
 
 
+#if defined(__linux__) || defined(__ANDROID__)
+// payload:
+// android platform 21 has cpu_set_t etc, platform 19 and below has it not.
+// Don't know for platform 20.
+// IMO there is no standard to check the android platform version
+// XXX payload: commented out as I work with platform 17 right now
+// #define FEATURE_CPU_SET
+#endif
+
+
 
 using namespace std;
 
 namespace avg {
 
-#if defined(__linux__) && !defined(ANDROID)
+#ifdef FEATURE_CPU_SET
 void printAffinityMask(cpu_set_t& mask)
 {
     for (int i=0; i<32; ++i) {
@@ -49,7 +59,7 @@ void setAffinityMask(bool bIsMainThread)
     // The main thread gets the first processor to itself. All other threads share the
     // rest of the processors available, unless, of course, there is only one processor
     // in the machine.
-#if defined(__linux__) && !defined(ANDROID)
+#ifdef FEATURE_CPU_SET
     static cpu_set_t allProcessors;
     static bool bInitialized = false;
     if (!bInitialized) {
@@ -109,7 +119,7 @@ unsigned getLowestBitSet(unsigned val)
 
 void yield()
 {
-#if defined(__linux__) && !defined(ANDROID)
+#ifdef FEATURE_CPU_SET
     sched_yield();
 #else
 #ifdef _WIN32
@@ -121,3 +131,5 @@ void yield()
 }
 
 }
+
+#undef FEATURE_CPU_SET

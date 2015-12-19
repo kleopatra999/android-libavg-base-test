@@ -12,7 +12,7 @@ LOCAL_SRC_FILES := FileHelper.cpp Exception.cpp Logger.cpp \
     Backtrace.cpp ProfilingZoneID.cpp GLMHelper.cpp \
     StandardLogSink.cpp ThreadHelper.cpp
 LOCAL_STATIC_LIBRARIES := libxml2_static
-LOCAL_SHARED_LIBRARIES := boost_system_shared
+LOCAL_SHARED_LIBRARIES := boost_system_shared boost_thread_shared
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
