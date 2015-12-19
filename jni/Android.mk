@@ -13,12 +13,13 @@ LOCAL_SRC_FILES := FileHelper.cpp Exception.cpp Logger.cpp \
     StandardLogSink.cpp ThreadHelper.cpp
 LOCAL_STATIC_LIBRARIES := libxml2_static
 LOCAL_SHARED_LIBRARIES := boost_system_shared boost_thread_shared
+LOCAL_LDLIBS := -lz
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE 	:= testbase
 LOCAL_SRC_FILES := testbase.cpp
-LOCAL_SHARED_LIBRARIES := boost_system_shared
+LOCAL_SHARED_LIBRARIES := boost_system_shared base
 LOCAL_STATIC_LIBRARIES := libxml2_static
 include $(BUILD_EXECUTABLE)
 
