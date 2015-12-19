@@ -1,0 +1,873 @@
+GLMHelper.lo: GLMHelper.cpp /usr/include/stdc-predef.h GLMHelper.h \
+ ../api.h ../glm/fwd.hpp ../glm/detail/type_int.hpp \
+ ../glm/detail/setup.hpp /usr/include/c++/4.8/cassert \
+ /usr/include/assert.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/mm_malloc.h \
+ /usr/include/stdlib.h /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h ../glm/detail/type_float.hpp \
+ ../glm/detail/type_vec.hpp ../glm/detail/precision.hpp \
+ ../glm/detail/type_int.hpp ../glm/detail/type_mat.hpp \
+ ../glm/gtc/matrix_transform.hpp ../glm/gtc/../mat4x4.hpp \
+ ../glm/gtc/../detail/type_mat4x4.hpp ../glm/gtc/../detail/../fwd.hpp \
+ ../glm/gtc/../detail/type_vec4.hpp ../glm/gtc/../detail/setup.hpp \
+ ../glm/gtc/../detail/type_vec.hpp /usr/include/c++/4.8/cstddef \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ ../glm/gtc/../detail/type_vec4.inl ../glm/gtc/../detail/type_mat.hpp \
+ /usr/include/c++/4.8/limits ../glm/gtc/../detail/type_mat4x4.inl \
+ ../glm/gtc/../vec2.hpp ../glm/gtc/../detail/type_vec2.hpp \
+ ../glm/gtc/../detail/type_vec2.inl ../glm/gtc/../vec3.hpp \
+ ../glm/gtc/../detail/type_vec3.hpp ../glm/gtc/../detail/type_vec3.inl \
+ ../glm/gtc/../vec4.hpp ../glm/gtc/../detail/type_vec4.hpp \
+ ../glm/gtc/matrix_transform.inl ../glm/gtc/../geometric.hpp \
+ ../glm/gtc/../detail/func_geometric.hpp \
+ ../glm/gtc/../detail/type_vec3.hpp \
+ ../glm/gtc/../detail/func_geometric.inl \
+ ../glm/gtc/../detail/func_exponential.hpp \
+ ../glm/gtc/../detail/type_vec1.hpp ../glm/gtc/../detail/type_vec1.inl \
+ ../glm/gtc/../detail/type_vec2.hpp /usr/include/c++/4.8/cmath \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+ /usr/include/x86_64-linux-gnu/bits/inf.h \
+ /usr/include/x86_64-linux-gnu/bits/nan.h \
+ /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+ /usr/include/x86_64-linux-gnu/bits/math-finite.h \
+ ../glm/gtc/../detail/func_exponential.inl \
+ ../glm/gtc/../detail/func_vector_relational.hpp \
+ ../glm/gtc/../detail/precision.hpp \
+ ../glm/gtc/../detail/func_vector_relational.inl \
+ ../glm/gtc/../detail/_vectorize.hpp ../glm/gtc/../detail/func_common.hpp \
+ ../glm/gtc/../detail/type_int.hpp ../glm/gtc/../detail/_fixes.hpp \
+ ../glm/gtc/../detail/func_common.inl ../glm/gtc/../detail/type_float.hpp \
+ ../glm/gtc/../trigonometric.hpp \
+ ../glm/gtc/../detail/func_trigonometric.hpp \
+ ../glm/gtc/../detail/func_trigonometric.inl ../glm/gtc/../matrix.hpp \
+ ../glm/gtc/../detail/func_matrix.hpp \
+ ../glm/gtc/../detail/../detail/precision.hpp \
+ ../glm/gtc/../detail/../detail/setup.hpp \
+ ../glm/gtc/../detail/../detail/type_mat.hpp \
+ ../glm/gtc/../detail/../vec2.hpp ../glm/gtc/../detail/../vec3.hpp \
+ ../glm/gtc/../detail/../vec4.hpp ../glm/gtc/../detail/../mat2x2.hpp \
+ ../glm/gtc/../detail/../detail/type_mat2x2.hpp \
+ ../glm/gtc/../detail/../detail/../fwd.hpp \
+ ../glm/gtc/../detail/../detail/type_vec2.hpp \
+ ../glm/gtc/../detail/../detail/type_mat.hpp \
+ ../glm/gtc/../detail/../detail/type_mat2x2.inl \
+ ../glm/gtc/../detail/../mat2x3.hpp \
+ ../glm/gtc/../detail/../detail/type_mat2x3.hpp \
+ ../glm/gtc/../detail/../detail/type_vec3.hpp \
+ ../glm/gtc/../detail/../detail/type_mat2x3.inl \
+ ../glm/gtc/../detail/../mat2x4.hpp \
+ ../glm/gtc/../detail/../detail/type_mat2x4.hpp \
+ ../glm/gtc/../detail/../detail/type_vec4.hpp \
+ ../glm/gtc/../detail/../detail/type_mat2x4.inl \
+ ../glm/gtc/../detail/../mat3x2.hpp \
+ ../glm/gtc/../detail/../detail/type_mat3x2.hpp \
+ ../glm/gtc/../detail/../detail/type_mat3x2.inl \
+ ../glm/gtc/../detail/../mat3x3.hpp \
+ ../glm/gtc/../detail/../detail/type_mat3x3.hpp \
+ ../glm/gtc/../detail/../detail/type_mat3x3.inl \
+ ../glm/gtc/../detail/../mat3x4.hpp \
+ ../glm/gtc/../detail/../detail/type_mat3x4.hpp \
+ ../glm/gtc/../detail/../detail/type_mat3x4.inl \
+ ../glm/gtc/../detail/../mat4x2.hpp \
+ ../glm/gtc/../detail/../detail/type_mat4x2.hpp \
+ ../glm/gtc/../detail/../detail/type_mat4x2.inl \
+ ../glm/gtc/../detail/../mat4x3.hpp \
+ ../glm/gtc/../detail/../detail/type_mat4x3.hpp \
+ ../glm/gtc/../detail/../detail/type_mat4x3.inl \
+ ../glm/gtc/../detail/../mat4x4.hpp ../glm/gtc/../detail/func_matrix.inl \
+ ../glm/gtc/../detail/../geometric.hpp ../glm/gtc/type_ptr.hpp \
+ ../glm/gtc/../gtc/quaternion.hpp ../glm/gtc/../gtc/../mat3x3.hpp \
+ ../glm/gtc/../gtc/../mat4x4.hpp ../glm/gtc/../gtc/../vec3.hpp \
+ ../glm/gtc/../gtc/../vec4.hpp ../glm/gtc/../gtc/../gtc/constants.hpp \
+ ../glm/gtc/../gtc/../gtc/../detail/setup.hpp \
+ ../glm/gtc/../gtc/../gtc/constants.inl ../glm/gtc/../gtc/quaternion.inl \
+ ../glm/gtc/../gtc/../trigonometric.hpp \
+ ../glm/gtc/../gtc/../geometric.hpp ../glm/gtc/../gtc/../exponential.hpp \
+ ../glm/gtc/../gtc/../detail/func_exponential.hpp \
+ ../glm/gtc/../mat2x2.hpp ../glm/gtc/../mat2x3.hpp \
+ ../glm/gtc/../mat2x4.hpp ../glm/gtc/../mat3x2.hpp \
+ ../glm/gtc/../mat3x3.hpp ../glm/gtc/../mat3x4.hpp \
+ ../glm/gtc/../mat4x2.hpp ../glm/gtc/../mat4x3.hpp \
+ /usr/include/c++/4.8/cstring /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h ../glm/gtc/type_ptr.inl \
+ ../glm/gtx/io.hpp ../glm/gtx/../detail/setup.hpp \
+ ../glm/gtx/../gtc/quaternion.hpp /usr/include/c++/4.8/iosfwd \
+ /usr/include/c++/4.8/bits/stringfwd.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/postypes.h /usr/include/c++/4.8/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h /usr/include/c++/4.8/utility \
+ /usr/include/c++/4.8/bits/stl_relops.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h ../glm/gtx/io.inl \
+ ../glm/gtx/../matrix.hpp /usr/include/c++/4.8/iomanip \
+ /usr/include/c++/4.8/bits/ios_base.h \
+ /usr/include/c++/4.8/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h \
+ /usr/include/c++/4.8/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h \
+ /usr/include/c++/4.8/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/4.8/cctype \
+ /usr/include/ctype.h /usr/include/c++/4.8/bits/locale_classes.h \
+ /usr/include/c++/4.8/string /usr/include/c++/4.8/bits/char_traits.h \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/ostream_insert.h \
+ /usr/include/c++/4.8/bits/cxxabi_forced.h \
+ /usr/include/c++/4.8/bits/stl_function.h \
+ /usr/include/c++/4.8/backward/binders.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/basic_string.h \
+ /usr/include/c++/4.8/bits/basic_string.tcc \
+ /usr/include/c++/4.8/bits/locale_classes.tcc \
+ /usr/include/c++/4.8/ostream /usr/include/c++/4.8/ios \
+ /usr/include/c++/4.8/streambuf /usr/include/c++/4.8/bits/streambuf.tcc \
+ /usr/include/c++/4.8/bits/basic_ios.h \
+ /usr/include/c++/4.8/bits/locale_facets.h /usr/include/c++/4.8/cwctype \
+ /usr/include/wctype.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h \
+ /usr/include/c++/4.8/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h \
+ /usr/include/c++/4.8/bits/locale_facets.tcc \
+ /usr/include/c++/4.8/bits/basic_ios.tcc \
+ /usr/include/c++/4.8/bits/ostream.tcc /usr/include/c++/4.8/iostream \
+ /usr/include/c++/4.8/istream /usr/include/c++/4.8/bits/istream.tcc \
+ /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/vector.tcc StringHelper.h Exception.h \
+ /usr/include/c++/4.8/sstream /usr/include/c++/4.8/bits/sstream.tcc \
+ /usr/include/c++/4.8/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/4.8/bits/cxxabi_tweaks.h \
+ /usr/include/c++/4.8/typeinfo ../glm/gtx/rotate_vector.hpp \
+ ../glm/gtx/../glm.hpp ../glm/gtx/../detail/_fixes.hpp \
+ /usr/include/c++/4.8/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/c++/4.8/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h ../glm/gtx/../fwd.hpp \
+ ../glm/gtx/../vec2.hpp ../glm/gtx/../vec3.hpp ../glm/gtx/../vec4.hpp \
+ ../glm/gtx/../mat2x2.hpp ../glm/gtx/../mat2x3.hpp \
+ ../glm/gtx/../mat2x4.hpp ../glm/gtx/../mat3x2.hpp \
+ ../glm/gtx/../mat3x3.hpp ../glm/gtx/../mat3x4.hpp \
+ ../glm/gtx/../mat4x2.hpp ../glm/gtx/../mat4x3.hpp \
+ ../glm/gtx/../mat4x4.hpp ../glm/gtx/../trigonometric.hpp \
+ ../glm/gtx/../exponential.hpp ../glm/gtx/../common.hpp \
+ ../glm/gtx/../detail/func_common.hpp ../glm/gtx/../packing.hpp \
+ ../glm/gtx/../detail/func_packing.hpp ../glm/gtx/../detail/type_vec2.hpp \
+ ../glm/gtx/../detail/type_vec4.hpp ../glm/gtx/../detail/func_packing.inl \
+ ../glm/gtx/../detail/func_common.hpp ../glm/gtx/../detail/type_half.hpp \
+ ../glm/gtx/../detail/setup.hpp ../glm/gtx/../detail/type_half.inl \
+ ../glm/gtx/../detail/../fwd.hpp ../glm/gtx/../geometric.hpp \
+ ../glm/gtx/../matrix.hpp ../glm/gtx/../vector_relational.hpp \
+ ../glm/gtx/../detail/func_vector_relational.hpp \
+ ../glm/gtx/../integer.hpp ../glm/gtx/../detail/func_integer.hpp \
+ ../glm/gtx/../detail/func_integer.inl ../glm/gtx/../detail/type_vec3.hpp \
+ ../glm/gtx/../detail/type_int.hpp ../glm/gtx/../detail/_vectorize.hpp \
+ ../glm/gtx/../gtx/transform.hpp ../glm/gtx/../gtx/../glm.hpp \
+ ../glm/gtx/../gtx/../detail/_fixes.hpp \
+ ../glm/gtx/../gtx/../gtc/matrix_transform.hpp \
+ ../glm/gtx/../gtx/transform.inl ../glm/gtx/rotate_vector.inl
+
+/usr/include/stdc-predef.h:
+
+GLMHelper.h:
+
+../api.h:
+
+../glm/fwd.hpp:
+
+../glm/detail/type_int.hpp:
+
+../glm/detail/setup.hpp:
+
+/usr/include/c++/4.8/cassert:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/mm_malloc.h:
+
+/usr/include/stdlib.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+../glm/detail/type_float.hpp:
+
+../glm/detail/type_vec.hpp:
+
+../glm/detail/precision.hpp:
+
+../glm/detail/type_int.hpp:
+
+../glm/detail/type_mat.hpp:
+
+../glm/gtc/matrix_transform.hpp:
+
+../glm/gtc/../mat4x4.hpp:
+
+../glm/gtc/../detail/type_mat4x4.hpp:
+
+../glm/gtc/../detail/../fwd.hpp:
+
+../glm/gtc/../detail/type_vec4.hpp:
+
+../glm/gtc/../detail/setup.hpp:
+
+../glm/gtc/../detail/type_vec.hpp:
+
+/usr/include/c++/4.8/cstddef:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h:
+
+../glm/gtc/../detail/type_vec4.inl:
+
+../glm/gtc/../detail/type_mat.hpp:
+
+/usr/include/c++/4.8/limits:
+
+../glm/gtc/../detail/type_mat4x4.inl:
+
+../glm/gtc/../vec2.hpp:
+
+../glm/gtc/../detail/type_vec2.hpp:
+
+../glm/gtc/../detail/type_vec2.inl:
+
+../glm/gtc/../vec3.hpp:
+
+../glm/gtc/../detail/type_vec3.hpp:
+
+../glm/gtc/../detail/type_vec3.inl:
+
+../glm/gtc/../vec4.hpp:
+
+../glm/gtc/../detail/type_vec4.hpp:
+
+../glm/gtc/matrix_transform.inl:
+
+../glm/gtc/../geometric.hpp:
+
+../glm/gtc/../detail/func_geometric.hpp:
+
+../glm/gtc/../detail/type_vec3.hpp:
+
+../glm/gtc/../detail/func_geometric.inl:
+
+../glm/gtc/../detail/func_exponential.hpp:
+
+../glm/gtc/../detail/type_vec1.hpp:
+
+../glm/gtc/../detail/type_vec1.inl:
+
+../glm/gtc/../detail/type_vec2.hpp:
+
+/usr/include/c++/4.8/cmath:
+
+/usr/include/c++/4.8/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.8/ext/type_traits.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+
+/usr/include/x86_64-linux-gnu/bits/inf.h:
+
+/usr/include/x86_64-linux-gnu/bits/nan.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-finite.h:
+
+../glm/gtc/../detail/func_exponential.inl:
+
+../glm/gtc/../detail/func_vector_relational.hpp:
+
+../glm/gtc/../detail/precision.hpp:
+
+../glm/gtc/../detail/func_vector_relational.inl:
+
+../glm/gtc/../detail/_vectorize.hpp:
+
+../glm/gtc/../detail/func_common.hpp:
+
+../glm/gtc/../detail/type_int.hpp:
+
+../glm/gtc/../detail/_fixes.hpp:
+
+../glm/gtc/../detail/func_common.inl:
+
+../glm/gtc/../detail/type_float.hpp:
+
+../glm/gtc/../trigonometric.hpp:
+
+../glm/gtc/../detail/func_trigonometric.hpp:
+
+../glm/gtc/../detail/func_trigonometric.inl:
+
+../glm/gtc/../matrix.hpp:
+
+../glm/gtc/../detail/func_matrix.hpp:
+
+../glm/gtc/../detail/../detail/precision.hpp:
+
+../glm/gtc/../detail/../detail/setup.hpp:
+
+../glm/gtc/../detail/../detail/type_mat.hpp:
+
+../glm/gtc/../detail/../vec2.hpp:
+
+../glm/gtc/../detail/../vec3.hpp:
+
+../glm/gtc/../detail/../vec4.hpp:
+
+../glm/gtc/../detail/../mat2x2.hpp:
+
+../glm/gtc/../detail/../detail/type_mat2x2.hpp:
+
+../glm/gtc/../detail/../detail/../fwd.hpp:
+
+../glm/gtc/../detail/../detail/type_vec2.hpp:
+
+../glm/gtc/../detail/../detail/type_mat.hpp:
+
+../glm/gtc/../detail/../detail/type_mat2x2.inl:
+
+../glm/gtc/../detail/../mat2x3.hpp:
+
+../glm/gtc/../detail/../detail/type_mat2x3.hpp:
+
+../glm/gtc/../detail/../detail/type_vec3.hpp:
+
+../glm/gtc/../detail/../detail/type_mat2x3.inl:
+
+../glm/gtc/../detail/../mat2x4.hpp:
+
+../glm/gtc/../detail/../detail/type_mat2x4.hpp:
+
+../glm/gtc/../detail/../detail/type_vec4.hpp:
+
+../glm/gtc/../detail/../detail/type_mat2x4.inl:
+
+../glm/gtc/../detail/../mat3x2.hpp:
+
+../glm/gtc/../detail/../detail/type_mat3x2.hpp:
+
+../glm/gtc/../detail/../detail/type_mat3x2.inl:
+
+../glm/gtc/../detail/../mat3x3.hpp:
+
+../glm/gtc/../detail/../detail/type_mat3x3.hpp:
+
+../glm/gtc/../detail/../detail/type_mat3x3.inl:
+
+../glm/gtc/../detail/../mat3x4.hpp:
+
+../glm/gtc/../detail/../detail/type_mat3x4.hpp:
+
+../glm/gtc/../detail/../detail/type_mat3x4.inl:
+
+../glm/gtc/../detail/../mat4x2.hpp:
+
+../glm/gtc/../detail/../detail/type_mat4x2.hpp:
+
+../glm/gtc/../detail/../detail/type_mat4x2.inl:
+
+../glm/gtc/../detail/../mat4x3.hpp:
+
+../glm/gtc/../detail/../detail/type_mat4x3.hpp:
+
+../glm/gtc/../detail/../detail/type_mat4x3.inl:
+
+../glm/gtc/../detail/../mat4x4.hpp:
+
+../glm/gtc/../detail/func_matrix.inl:
+
+../glm/gtc/../detail/../geometric.hpp:
+
+../glm/gtc/type_ptr.hpp:
+
+../glm/gtc/../gtc/quaternion.hpp:
+
+../glm/gtc/../gtc/../mat3x3.hpp:
+
+../glm/gtc/../gtc/../mat4x4.hpp:
+
+../glm/gtc/../gtc/../vec3.hpp:
+
+../glm/gtc/../gtc/../vec4.hpp:
+
+../glm/gtc/../gtc/../gtc/constants.hpp:
+
+../glm/gtc/../gtc/../gtc/../detail/setup.hpp:
+
+../glm/gtc/../gtc/../gtc/constants.inl:
+
+../glm/gtc/../gtc/quaternion.inl:
+
+../glm/gtc/../gtc/../trigonometric.hpp:
+
+../glm/gtc/../gtc/../geometric.hpp:
+
+../glm/gtc/../gtc/../exponential.hpp:
+
+../glm/gtc/../gtc/../detail/func_exponential.hpp:
+
+../glm/gtc/../mat2x2.hpp:
+
+../glm/gtc/../mat2x3.hpp:
+
+../glm/gtc/../mat2x4.hpp:
+
+../glm/gtc/../mat3x2.hpp:
+
+../glm/gtc/../mat3x3.hpp:
+
+../glm/gtc/../mat3x4.hpp:
+
+../glm/gtc/../mat4x2.hpp:
+
+../glm/gtc/../mat4x3.hpp:
+
+/usr/include/c++/4.8/cstring:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string3.h:
+
+../glm/gtc/type_ptr.inl:
+
+../glm/gtx/io.hpp:
+
+../glm/gtx/../detail/setup.hpp:
+
+../glm/gtx/../gtc/quaternion.hpp:
+
+/usr/include/c++/4.8/iosfwd:
+
+/usr/include/c++/4.8/bits/stringfwd.h:
+
+/usr/include/c++/4.8/bits/memoryfwd.h:
+
+/usr/include/c++/4.8/bits/postypes.h:
+
+/usr/include/c++/4.8/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+/usr/include/c++/4.8/utility:
+
+/usr/include/c++/4.8/bits/stl_relops.h:
+
+/usr/include/c++/4.8/bits/stl_pair.h:
+
+/usr/include/c++/4.8/bits/move.h:
+
+/usr/include/c++/4.8/bits/concept_check.h:
+
+../glm/gtx/io.inl:
+
+../glm/gtx/../matrix.hpp:
+
+/usr/include/c++/4.8/iomanip:
+
+/usr/include/c++/4.8/bits/ios_base.h:
+
+/usr/include/c++/4.8/ext/atomicity.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h:
+
+/usr/include/c++/4.8/bits/localefwd.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:
+
+/usr/include/c++/4.8/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/c++/4.8/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/4.8/bits/locale_classes.h:
+
+/usr/include/c++/4.8/string:
+
+/usr/include/c++/4.8/bits/char_traits.h:
+
+/usr/include/c++/4.8/bits/stl_algobase.h:
+
+/usr/include/c++/4.8/bits/functexcept.h:
+
+/usr/include/c++/4.8/bits/exception_defines.h:
+
+/usr/include/c++/4.8/ext/numeric_traits.h:
+
+/usr/include/c++/4.8/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.8/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.8/debug/debug.h:
+
+/usr/include/c++/4.8/bits/stl_iterator.h:
+
+/usr/include/c++/4.8/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h:
+
+/usr/include/c++/4.8/ext/new_allocator.h:
+
+/usr/include/c++/4.8/new:
+
+/usr/include/c++/4.8/exception:
+
+/usr/include/c++/4.8/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.8/bits/ostream_insert.h:
+
+/usr/include/c++/4.8/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.8/bits/stl_function.h:
+
+/usr/include/c++/4.8/backward/binders.h:
+
+/usr/include/c++/4.8/bits/range_access.h:
+
+/usr/include/c++/4.8/bits/basic_string.h:
+
+/usr/include/c++/4.8/bits/basic_string.tcc:
+
+/usr/include/c++/4.8/bits/locale_classes.tcc:
+
+/usr/include/c++/4.8/ostream:
+
+/usr/include/c++/4.8/ios:
+
+/usr/include/c++/4.8/streambuf:
+
+/usr/include/c++/4.8/bits/streambuf.tcc:
+
+/usr/include/c++/4.8/bits/basic_ios.h:
+
+/usr/include/c++/4.8/bits/locale_facets.h:
+
+/usr/include/c++/4.8/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h:
+
+/usr/include/c++/4.8/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h:
+
+/usr/include/c++/4.8/bits/locale_facets.tcc:
+
+/usr/include/c++/4.8/bits/basic_ios.tcc:
+
+/usr/include/c++/4.8/bits/ostream.tcc:
+
+/usr/include/c++/4.8/iostream:
+
+/usr/include/c++/4.8/istream:
+
+/usr/include/c++/4.8/bits/istream.tcc:
+
+/usr/include/c++/4.8/vector:
+
+/usr/include/c++/4.8/bits/stl_construct.h:
+
+/usr/include/c++/4.8/ext/alloc_traits.h:
+
+/usr/include/c++/4.8/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.8/bits/stl_vector.h:
+
+/usr/include/c++/4.8/bits/stl_bvector.h:
+
+/usr/include/c++/4.8/bits/vector.tcc:
+
+StringHelper.h:
+
+Exception.h:
+
+/usr/include/c++/4.8/sstream:
+
+/usr/include/c++/4.8/bits/sstream.tcc:
+
+/usr/include/c++/4.8/cxxabi.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.8/bits/cxxabi_tweaks.h:
+
+/usr/include/c++/4.8/typeinfo:
+
+../glm/gtx/rotate_vector.hpp:
+
+../glm/gtx/../glm.hpp:
+
+../glm/gtx/../detail/_fixes.hpp:
+
+/usr/include/c++/4.8/climits:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/c++/4.8/cfloat:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h:
+
+../glm/gtx/../fwd.hpp:
+
+../glm/gtx/../vec2.hpp:
+
+../glm/gtx/../vec3.hpp:
+
+../glm/gtx/../vec4.hpp:
+
+../glm/gtx/../mat2x2.hpp:
+
+../glm/gtx/../mat2x3.hpp:
+
+../glm/gtx/../mat2x4.hpp:
+
+../glm/gtx/../mat3x2.hpp:
+
+../glm/gtx/../mat3x3.hpp:
+
+../glm/gtx/../mat3x4.hpp:
+
+../glm/gtx/../mat4x2.hpp:
+
+../glm/gtx/../mat4x3.hpp:
+
+../glm/gtx/../mat4x4.hpp:
+
+../glm/gtx/../trigonometric.hpp:
+
+../glm/gtx/../exponential.hpp:
+
+../glm/gtx/../common.hpp:
+
+../glm/gtx/../detail/func_common.hpp:
+
+../glm/gtx/../packing.hpp:
+
+../glm/gtx/../detail/func_packing.hpp:
+
+../glm/gtx/../detail/type_vec2.hpp:
+
+../glm/gtx/../detail/type_vec4.hpp:
+
+../glm/gtx/../detail/func_packing.inl:
+
+../glm/gtx/../detail/func_common.hpp:
+
+../glm/gtx/../detail/type_half.hpp:
+
+../glm/gtx/../detail/setup.hpp:
+
+../glm/gtx/../detail/type_half.inl:
+
+../glm/gtx/../detail/../fwd.hpp:
+
+../glm/gtx/../geometric.hpp:
+
+../glm/gtx/../matrix.hpp:
+
+../glm/gtx/../vector_relational.hpp:
+
+../glm/gtx/../detail/func_vector_relational.hpp:
+
+../glm/gtx/../integer.hpp:
+
+../glm/gtx/../detail/func_integer.hpp:
+
+../glm/gtx/../detail/func_integer.inl:
+
+../glm/gtx/../detail/type_vec3.hpp:
+
+../glm/gtx/../detail/type_int.hpp:
+
+../glm/gtx/../detail/_vectorize.hpp:
+
+../glm/gtx/../gtx/transform.hpp:
+
+../glm/gtx/../gtx/../glm.hpp:
+
+../glm/gtx/../gtx/../detail/_fixes.hpp:
+
+../glm/gtx/../gtx/../gtc/matrix_transform.hpp:
+
+../glm/gtx/../gtx/transform.inl:
+
+../glm/gtx/rotate_vector.inl:
