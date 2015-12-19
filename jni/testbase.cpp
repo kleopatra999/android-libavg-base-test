@@ -841,7 +841,7 @@ public:
     {
         vector<string> sFuncs;
         getBacktrace(sFuncs);
-#ifndef _WIN32
+#if !(defined(_WIN32) || defined(__ANDROID__))
         TEST(sFuncs[0].find("runTests") != string::npos);
 #endif
     }
